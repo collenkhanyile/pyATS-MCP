@@ -1,0 +1,124 @@
+---
+devices:
+  NXOS9k1:
+    alias: "Sandbox NXOS9k1"
+    type: "switch"
+    os: "nxos"
+    platform: NXOS9k
+    credentials:
+      default:
+        username: admin
+        password: Cisco@1234!!
+      enable:
+        password: cisco
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.0.0.217
+        port: 22
+        arguments:
+          connection_timeout: 360
+  NXOS9k2:
+    alias: "Sandbox NXOS9k2"
+    type: "switch"
+    os: "nxos"
+    platform: NXOS9k
+    credentials:
+      default:
+        username: admin
+        password: Cisco@1234!!
+      enable:
+        password: cisco
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.0.0.216
+        port: 22
+        arguments:
+          connection_timeout: 360
+  NXOS9k3:
+    alias: "Sandbox NXOS9k3"
+    type: "switch"
+    os: "nxos"
+    platform: NXOS9k
+    credentials:
+      default:
+        username: admin
+        password: Cisco@1234!!
+      enable:
+        password: cisco
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.0.0.218
+        port: 22
+        arguments:
+          connection_timeout: 360
+  NXOS9k4:
+    alias: "Sandbox NXOS9k4"
+    type: "switch"
+    os: "nxos"
+    platform: NXOS9k
+    credentials:
+      default:
+        username: admin
+        password: Cisco@1234!!
+      enable:
+        password: cisco
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.0.0.220
+        port: 22
+        arguments:
+          connection_timeout: 360
+  NXOS9k5:
+    alias: "Sandbox NXOS9k5"
+    type: "switch"
+    os: "nxos"
+    platform: NXOS9k
+    credentials:
+      default:
+        username: admin
+        password: Cisco@1234!!
+      enable:
+        password: cisco
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.0.0.219
+        port: 22
+        arguments:
+          connection_timeout: 360
+  # PC2:
+  #   alias: "Sandbox PC2"
+  #   type: "host"
+  #   os: "linux"
+  #   platform: alpine
+  #   credentials:
+  #     default:
+  #       username: cisco
+  #       password: cisco
+  #   connections:
+  #     cli:
+  #       protocol: ssh
+  #       ip: 10.10.20.178
+  #       port: 22
+  #       arguments:
+  #         connection_timeout: 360                  
+  # DESKTOP:
+  #   alias: "Ubuntu Local"
+  #   type: "host"
+  #   os: "linux"
+  #   platform: ubuntu
+  #   credentials:
+  #     default:
+  #       username: johncapobianco
+  #       password: Timbit@123
+  #   connections:
+  #     cli:
+  #       protocol: ssh
+  #       ip: 172.22.164.213
+  #       port: 22
+  #       arguments:
+  #         connection_timeout: 360

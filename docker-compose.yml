@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  pyats:
+    image: pyats-mcp-serverv1
+    ports:
+      - "8000:8000"
+    container_name: pyats-mcp-server
+    environment:
+      PYATS_TESTBED_PATH: /app/testbed.yaml
+    volumes:
+      - D:/Automation/pyATS_MCP/app:/app
+    stdin_open: true
+    tty: true
